@@ -149,3 +149,21 @@
 .table{
     display: flex;
 }
+.footer .footer_table
+{
+  display: flex;
+  align-content: center;
+  padding-top: 30px;
+}
+.footer .footer_table > div{
+  margin: 5px 10px;
+}
+.btn
+{
+  background-color: white;
+  border-radius: 0px;
+  padding: 5px 10px;
+}
+.btn:hover{
+  background-color: #00c8c8;
+}
