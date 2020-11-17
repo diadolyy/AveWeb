@@ -145,3 +145,7 @@
 {
   padding-left: 23px;
 }
+
+.table{
+    display: flex;
+}
