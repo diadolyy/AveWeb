@@ -1,31 +1,147 @@
-.copyright
-{
-    float: right;
-    background-color: blueviolet;
-    padding: 5px;
-}
-.copyright_bar
-{
-    background-color: blue;
-    line-height: 30px; 
-}
-
 .topbar {
   overflow: hidden;
   background-color: #333;
-  padding: 20px, 10px;
+  width: 1280px;
+  height: 28px;
 }
-.header .topbar a {
+
+.topbar a {
   float: left;
-  color: gray;
+  display: block;
+  color: #999999;
   text-align: center;
-  padding: 12px;
+  padding: 5px 20px;
   text-decoration: none;
-  font-size: 18px;
-  line-height: 25px;
-  border-radius: 4px;
 }
-.logo {
-  font-size: 25px;
-  font-weight: bold;
+.topbar a:hover
+{
+  color: #00c8c8;
+}
+.topbar a.topbar_cart
+{
+  float: right;
+  margin-right: 274px;
+  background-color:#00c8c8;
+  color: #ffffff;
+  width: 92px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.topbar a.currency-selector
+{
+  margin-left: 274px;
+  margin-right: 0px;
+  padding: 5px 0px;
+}
+.topbar a.topbar_register
+{
+  margin-left: 431px;
+  margin-right: 0px;
+  padding: 5px 0px;
+}
+.topbar a.topbar_signin
+{
+  margin-left: 22px;
+  margin-right: 0px; /* А чо а всмысле */
+  padding: 5px 0px;
+}
+.navigation
+{
+  height: 69px;
+  background-color: #f8f8f8;
+  width: 1280px;
+}
+.navigation input
+{
+  margin: 14px 0px;
+  margin-right: 84px;
+  float: right;
+}
+.navigation a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 0px;
+  text-decoration: none;
+  font-size: 15px;
+}
+.navigation .logo
+{
+  margin-left: 64px;
+  margin-right: 380px;
+}
+.navigation .nav_item
+{
+  padding: 14px 8px;
+  margin: 0px 10px;
+}
+.navigation .mens
+{
+
+  padding: 14px 8px;
+  margin-left: 380px;
+}
+.intro
+{
+  text-align: center;
+  background: url(images/intro_city_photo_bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 1280px;
+  height: 280px;
+}
+.content
+{
+  height: 362px;
+  width: 1280px;
+  background-color: #ffffff;
+}
+.footer
+{
+  height: 395px;
+  width: 1280px;
+  background-color:#f8f8f8;
+}
+.copyright_bar{
+  background-color:  #333;
+  height: 28px;
+  width: 1280px;
+}
+
+.banners
+{
+  padding: 35px 273px;
+}
+.banner1
+{
+  padding-right: 6px;
+}
+.banner2
+{
+  padding-left: 6px;
+}
+
+.copyright_bar a
+{
+  float: left;
+  display: block;
+  color: #858585;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  font-size: 10px;
+}
+.copyright
+{
+  padding-left: 273px;
+}
+.designby
+{
+  padding-left: 273px;
+}
+.devby
+{
+  padding-left: 23px;
 }

@@ -9,68 +9,78 @@
   <body>
     <!-- Header section -->
     <header class="header">
+      <!-- Topbar -->
       <div class="topbar">
-        <a href="#">Currency</a>
+        <a href="#" class="currency-selector">Currency</a>
         <a href="#" class="topbar_register">Register</a>
-        <a href="#">Sing in</a>
+        <a href="#" class="topbar_signin">Sing in</a>
         <a href="#" class="topbar_cart">Cart</a>
       </div>
-      <div>
-        <a href="#" class="logo">AVENUE FASHION</a>
-        <a href="#">Mens</a>
-        <a href="#">Womens</a>
-        <a href="#">The Brand</a>
-        <a href="#">Local stores</a>
-        <a href="#">Look book</a>
-        <input type="text" placeholder="Search">
+      <!-- Navigation -->
+      <div class="navigation">
+        <a href="#" class="logo nav_item">AVENUE FASHION</a>
+        <a href="#" class ="mens nav_item">Mens</a>
+        <a href="#" class ="womens nav_item">Womens</a>
+        <a href="#" class ="the_brand nav_item">The Brand</a>
+        <a href="#" class ="local_stores nav_item">Local stores</a>
+        <a href="#" class="navigation_lookbook nav_item">Look book</a>
+        <input type="text" placeholder="Search" />
       </div>
     </header>
-    <img width="100%" src="images/photo.png" />
-    <label><b>Sign in</b></label
-    ><br /><br />
-    <input
-      type="text"
-      id="fname"
-      name="fname"
-      placeholder="Your email:"
-    /><br /><br />
-    <input
-      type="text"
-      id="lname"
-      name="lname"
-      placeholder="Your password.."
-    /><br /><br />
-    <button>Sign in</button><br /><br />
+    <!-- Intro -->
+    <div class="intro">
+      <p>Welcome to AVE</p>
+    </div>
+    <!-- Content -->
+    <div class="content">
+      <label><b>Sign in</b></label
+      ><br /><br />
+      <input
+        type="text"
+        id="fname"
+        name="fname"
+        placeholder="Your email:"
+      /><br /><br />
+      <input
+        type="text"
+        id="lname"
+        name="lname"
+        placeholder="Your password.."
+      /><br /><br />
+      <button>Sign in</button><br /><br />
 
-    <label><b>Register</b></label
-    ><br /><br />
-    <input
-      type="text"
-      id="fname"
-      name="fname"
-      placeholder="Your email:"
-    /><br /><br />
-    <input
-      type="text"
-      id="lname"
-      name="lname"
-      placeholder="Your password.."
-    /><br /><br />
-    <input
-      type="text"
-      id="lname"
-      name="lname"
-      placeholder="Confirm password.."
-    /><br /><br />
-    <input type="checkbox" id="updates" name="updates" value="check" />
-    <label for="updates"
-      >Sign up for exclusive updates, discounts, new arrivals, contest</label
-    ><br /><br />
-    <button>Create account</button>
-    <label>By clicking ‘Create Account’, you agree to our Privacy Policy </label
-    ><br /><br />
-    <!--Private Policy - LINK [TODO]-->
-    <footer>
+      <label><b>Register</b></label
+      ><br /><br />
+      <input
+        type="text"
+        id="fname"
+        name="fname"
+        placeholder="Your email:"
+      /><br /><br />
+      <input
+        type="text"
+        id="lname"
+        name="lname"
+        placeholder="Your password.."
+      /><br /><br />
+      <input
+        type="text"
+        id="lname"
+        name="lname"
+        placeholder="Confirm password.."
+      /><br /><br />
+      <input type="checkbox" id="updates" name="updates" value="check" />
+      <label for="updates"
+        >Sign up for exclusive updates, discounts, new arrivals, contest</label
+      ><br /><br />
+      <button>Create account</button>
+      <label
+        >By clicking ‘Create Account’, you agree to our Privacy Policy </label
+      ><br /><br />
+      <!--Private Policy - LINK [TODO]-->
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
       <b>Information</b><br />
       <a href="#" target="_blank">The brand</a><br />
       <a href="#" target="_blank">Local stores</a><br />
@@ -102,14 +112,15 @@
       180-182 Regent Street, London<br /><br />
       Telephone: 0123-456-789<br /><br />
       Email:support@yourwebsite.com<br />
-      <img src="images/banner_awards_bg.png" />
-      <img src="images/banner_social_bg.png" />
+      <div class="banners"> 
+        <img src="images/banner_awards_bg.png" width=354 height=124 class="banner1"/>
+        <img src="images/banner_social_bg.png" width=354 height=124 class="banner2"/>
+      </div>
       <div class="copyright_bar">
-        <div class="copyright">
-            Copyrighted by Jack (c) 2018
-        </div>
+        <a class="copyright">&copy2016 Avenue Fashion&trade;</a>
+        <a class="designby">Design by RobbyDesigns.com</a>
+        <a class="devby">Dev by Loremipsum.com</a>
       </div>
     </footer>
-    
   </body>
 </html>
