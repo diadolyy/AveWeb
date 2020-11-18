@@ -157,6 +157,9 @@
   display: flex;
   align-content: center;
   padding-top: 30px;
+  width: fit-content;
+  margin-left: 210px;
+  margin-right: 210px;
 }
 .footer .footer_table > div{
   margin: 5px 10px;
