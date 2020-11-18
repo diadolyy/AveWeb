@@ -148,6 +148,9 @@
 
 .table{
     display: flex;
+    width: 730px;
+    margin-left: 275px;
+    margin-right: 275px;
 }
 .footer .footer_table
 {
