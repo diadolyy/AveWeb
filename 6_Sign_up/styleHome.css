@@ -1,8 +1,13 @@
+/* topbar */
 .topbar {
+  position: absolute;
   overflow: hidden;
   background-color: #333;
-  width: 2050px;
-  height: 28px;
+  left: -1px;
+  top: 0px;
+  width: 2053px;
+  height: 45px;
+  z-index: 188;
 }
 
 .topbar a {
@@ -17,34 +22,45 @@
 {
   color: #00c8c8;
 }
+
 .topbar a.topbar_cart
 {
-  float: right;
-  margin-right: 274px;
   background-color:#00c8c8;
   color: #ffffff;
-  width: 92px;
-  padding-left: 0px;
-  padding-right: 0px;
+  text-align: center;
+  position: absolute;
+  left: 1463px;
+  top: -1px;
+  width: 147px;
+  height: 46px;
+  z-index: 190;
 }
+
 .topbar a.currency-selector
 {
-  margin-left: 274px;
-  margin-right: 0px;
-  padding: 5px 0px;
+  position: absolute;
+  left: 440px;
+  top: 5px;
 }
+
 .topbar a.topbar_register
 {
-  margin-left: 431px;
-  margin-right: 0px;
-  padding: 5px 0px;
+  position: absolute;
+  left: 1245px;
+  top: 5px;
+  z-index: 194;
 }
+
 .topbar a.topbar_signin
 {
-  margin-left: 22px;
-  margin-right: 0px; /* А чо а всмысле */
-  padding: 5px 0px;
-}
+  position: absolute;
+  left: 1330px;
+  top: 5px;
+  z-index: 194;
+} 
+
+/* Navigation */
+
 .navigation
 {
   height: 69px;
@@ -66,22 +82,72 @@
   text-decoration: none;
   font-size: 15px;
 }
+
 .navigation .logo
 {
-  margin-left: 64px;
-  margin-right: 380px;
+  font-size: 24px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 133.844px;
+  top: 77.1px;
+  z-index: 186;
 }
+
 .navigation .nav_item
 {
-  padding: 14px 8px;
-  margin: 0px 10px;
+  font-size: 13px;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  line-height: 1.538;
+  text-align: right;
+  position: absolute;
+  top: 86px;
+  z-index: 184;
 }
+
 .navigation .mens
 {
-
-  padding: 14px 8px;
-  margin-left: 380px;
+  left: 1010px;
 }
+
+.navigation .womens
+{
+  left: 1106px;
+}
+
+.navigation .the_brand
+{
+  left: 1230px;
+}
+
+.navigation .local_stores
+{
+  left: 1367px;
+}
+
+.navigation .navigation_lookbook
+{
+  left: 1523px;
+}
+
+.search
+{
+  font-size: 13px;
+  font-family: "Montserrat";
+  color: rgb(152, 152, 152);
+  line-height: 2.077;
+  text-align: left;
+  position: absolute;
+  left: 1735px;
+  top: 86px;
+  height: 30px;
+  z-index: 177;
+}
+
 .intro
 {
   text-align: center;
