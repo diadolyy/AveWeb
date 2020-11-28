@@ -1,4 +1,5 @@
-/* topbar */
+/* TOPBAR */
+
 .topbar {
   position: absolute;
   overflow: hidden;
@@ -32,7 +33,7 @@
   left: 1463px;
   top: -1px;
   width: 147px;
-  height: 46px;
+  height: 45px;
   z-index: 190;
 }
 
@@ -46,7 +47,7 @@
 .topbar a.topbar_register
 {
   position: absolute;
-  left: 1245px;
+  left: 1248px;
   top: 5px;
   z-index: 194;
 }
@@ -54,33 +55,23 @@
 .topbar a.topbar_signin
 {
   position: absolute;
-  left: 1330px;
+  left: 1336px;
   top: 5px;
   z-index: 194;
 } 
 
-/* Navigation */
+/* NAVIGATION */
 
-.navigation
-{
-  height: 69px;
-  background-color: #f8f8f8;
-  width: 1280px;
-}
-.navigation input
-{
-  margin: 14px 0px;
-  margin-right: 84px;
-  float: right;
-}
 .navigation a {
   float: left;
   display: block;
   color: black;
-  text-align: center;
-  padding: 14px 0px;
   text-decoration: none;
-  font-size: 15px;
+}
+
+.navigation a:hover
+{
+  color: #00c8c8;
 }
 
 .navigation .logo
@@ -92,8 +83,8 @@
   line-height: 1.2;
   text-align: left;
   position: absolute;
-  left: 133.844px;
-  top: 77.1px;
+  left: 134px;
+  top: 83px;
   z-index: 186;
 }
 
@@ -105,73 +96,243 @@
   line-height: 1.538;
   text-align: right;
   position: absolute;
-  top: 86px;
+  top: 92px;
   z-index: 184;
 }
 
-.navigation .mens
+
+.navigation .mens 
 {
-  left: 1010px;
+  left: 1016px;
 }
 
 .navigation .womens
 {
-  left: 1106px;
+  left: 1112px;
 }
 
 .navigation .the_brand
 {
-  left: 1230px;
+  left: 1234px;
 }
 
 .navigation .local_stores
 {
-  left: 1367px;
+  left: 1371px;
 }
 
 .navigation .navigation_lookbook
 {
-  left: 1523px;
+  left: 1530px;
 }
 
-.search
-{
+.navigation .input {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(231, 231, 231);
+  background-color: rgba(248, 248, 248, 0);
+  text-align: left;
   font-size: 13px;
   font-family: "Montserrat";
   color: rgb(152, 152, 152);
-  line-height: 2.077;
-  text-align: left;
   position: absolute;
-  left: 1735px;
-  top: 86px;
+  left: 1723px;
+  top: 82px;
+  width: 189px;
   height: 30px;
-  z-index: 177;
+  z-index: 175;
 }
+
+/* INTRO */
 
 .intro
 {
+
+  position: absolute;
+  left: -3px;
+  top: 44px;
+  width: 2053px;
+  height: 920px;
+  z-index: 160;
+}
+
+.btn {
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(115, 115, 115);
+  background-color: rgba(115, 115, 115, 0);
+  position: absolute;
+  left: 1383px;
+  top: 781px;
+  width: 342px;
+  height: 59px;
+  z-index: 165;
+  font-size: 16px;
+  font-family: "Montserrat";
+  color: rgb(69, 70, 71);
+  text-transform: uppercase;
+  line-height: 1.2;
   text-align: center;
-  background: url(images/intro_city_photo_bg.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 1280px;
-  height: 280px;
 }
-.content
+
+.btn:hover{
+  background-color: #00c8c8;
+}
+
+/* ITEMS */
+
+.items_menu a{
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  }
+
+  .items_menu a:hover
 {
-  height: 362px;
-  width: 1280px;
-  background-color: #ffffff;
+  color: #00c8c8;
 }
+
+.items_menu{
+  font-size: 13px;
+  font-family: "Montserrat";
+  color:#7b7b7b;
+  text-transform: uppercase;
+  line-height: 1.538;
+  text-align: left;
+  position: absolute;
+  width: 2050px;
+  top: 1076px;
+}
+
+.popular
+{
+  position: absolute;
+  left: 138px;
+}
+
+.new_arrivals{
+  position: absolute;
+  left: 256px;
+}
+
+.best_sellers{
+  position: absolute;
+  left: 418px;
+}
+
+.special_offers{
+  position: absolute;
+  left: 569px;
+}
+
+.coming_soon{
+  position: absolute;
+  left: 739px;
+}
+
+.items{
+ position: absolute;
+} 
+
+.item1{
+  left: 138px;
+  top: 1153px;
+}
+
+.item2{
+  left: 588px;
+  top: 1153px;
+}
+
+.item3{
+  left: 1038px;
+  top: 1153px;
+}
+
+.item4{
+  left: 138px;
+  top: 1683px;
+}
+
+.item6{
+  left: 1488px;
+  top: 1887px;
+}
+
+.prices{
+  font-size: 21px;
+  font-family: "Montserrat";
+  color: rgb(154, 154, 154);
+  text-transform: uppercase;
+  vertical-align: super;
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+}
+.price_item1{
+ 
+  left: 153px;
+  top: 1150px;
+}
+.price_item2{
+  left: 604px;
+  top: 1150px;
+}
+
+.price_item3_striked{
+  left: 1053px;
+  top: 1171px;
+}
+
+.price_item3{
+  left: 1112px;
+  top: 1150px;
+}
+
+.price_item4{
+  left: 153px;
+  top: 1685px;
+}
+
+.price_item6{
+  left: 1502px;
+  top: 1885px;
+}
+
+/* LOOKBOOK */
+
+.lookbook{
+  position: absolute;
+}
+
+.lookbook .lookbook1{
+  left: 0px;
+  top: 2513px;
+}
+
+.lookbook2{
+  left: 693px;
+  top: 2513px;
+}
+
+.lookbook3{
+  left: 1385px;
+  top: 2513px;
+}
+
+/* FOOTER */
+
 .footer
 {
-  height: 395px;
-  width: 1280px;
+  height: 634px;
+  width: 2050px;
   background-color:#f8f8f8;
 }
 .copyright_bar{
   background-color:  #333;
-  height: 28px;
+  height: 45px;
   width: 2050px;
 }
 
@@ -230,13 +391,4 @@
 .footer .footer_table > div{
   margin: 5px 10px;
 }
-.btn
-{
-  background-color: white;
-  border-radius: 0px;
-  padding: 5px 10px;
-  border: 0.5px solid #000000;
-}
-.btn:hover{
-  background-color: #00c8c8;
-}
+
