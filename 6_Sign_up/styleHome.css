@@ -147,13 +147,11 @@
 
 .intro
 {
-
   position: absolute;
   left: -3px;
   top: 44px;
   width: 2053px;
   height: 920px;
-  z-index: 160;
 }
 
 .btn {
@@ -161,22 +159,25 @@
   border-width: 2px;
   border-color: rgb(115, 115, 115);
   background-color: rgba(115, 115, 115, 0);
-  position: absolute;
-  left: 1383px;
-  top: 781px;
-  width: 342px;
-  height: 59px;
-  z-index: 165;
   font-size: 16px;
   font-family: "Montserrat";
   color: rgb(69, 70, 71);
   text-transform: uppercase;
+  position: absolute;
   line-height: 1.2;
   text-align: center;
 }
 
+.intro_btn{
+  left: 1383px;
+  top: 781px;
+  width: 342px;
+  height: 59px;
+}
 .btn:hover{
   background-color: #00c8c8;
+  color:#f8f8f8;
+  border-color:#00c8c8;
 }
 
 /* ITEMS */
@@ -320,15 +321,42 @@
 .lookbook3{
   left: 1385px;
   top: 2513px;
+
+}
+
+.lk_btn1{
+  position: absolute;
+  left: 427px;
+  top: 2841px;
+  width: 180px;
+  height: 59px;
+}
+
+.lk_btn2{
+  position: absolute;
+  left: 1120px;
+  top: 2841px;
+  width: 180px;
+  height: 59px;
+}
+
+.lk_btn3{
+  position: absolute;
+  left: 1813px;
+  top: 2841px;
+  width: 180px;
+  height: 59px;
 }
 
 /* FOOTER */
 
 .footer
 {
+  top: 3166px;
   height: 634px;
   width: 2050px;
   background-color:#f8f8f8;
+  position: relative;
 }
 .copyright_bar{
   background-color:  #333;
@@ -342,7 +370,9 @@
 }
 .banner1
 {
-  padding-right: 6px;
+  left: 439px;
+  top: 3499px;
+
 }
 .banner2
 {
