@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styleHome.css"/>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Avenue Fashion</title>
   </head>
-  <body>
+  <body class="body">
       <!-- Header section -->
     <header class="header">
         <!-- Topbar -->
@@ -29,67 +31,69 @@
       </header>
 
       <!-- Intro -->
-      <div>
-        <img class="intro"
+      <div class="intro">
+        <img 
         src="images/container.jpg"
         />
         <button class="btn intro_btn">Shop men's collection</button>
       </div>
-        <!-- Items -->
-      <!-- Hovers TODO -->
-      
-      <div class="items_menu">
-        <a href="#" class="popular">Popular</a>
-        <a href="#" class="new_arrivals">new arrivals</a>
-        <a href="#" class="best_sellers">best sellers</a>
-        <a href="#" class="special_offers">special offers</a>
-        <a href="#" class="coming_soon">coming soon</a>
-      </div>
-      <div class="items">
-        <img class="item1 items" src="images/item1.jpg"/>
-        <p class="prices price_item1">£89.99</p>
-        <img class="items item2" src="images/item2.jpg"/>
-        <p class="prices price_item2">£47.50</p>
-        <img class="items item3" src="images/item3.jpg"/>
-        <strike class="prices price_item3_striked">£107</strike>
-        <p class="prices price_item3">£89.99</p>
-        <img class="items item4" src="images/item4.jpg"/>
-        <p class="prices price_item4">£69.95</p>
-        <!-- <img class="item5" src="images/item5.jpg"/>  хз как сохранить без ховера--> 
-        <img class="items item6" src="images/item6.jpg"/>
-        <p class="prices price_item6">£34.79</p>
-      </div>
+      <!-- Content -->
+      <div class="content">
+          <!-- Items -->
+        <!-- Hovers TODO -->
+        <div class="item">
+          <div class="items_menu">
+            <a href="#" class="popular">Popular</a>
+            <a href="#" class="new_arrivals">new arrivals</a>
+            <a href="#" class="best_sellers">best sellers</a>
+            <a href="#" class="special_offers">special offers</a>
+            <a href="#" class="coming_soon">coming soon</a>
+          </div>
+          <div class="items">
+            <img class="item1" src="images/item1.jpg"/>
+            <p class="prices price_item1">£89.99</p>
+            <img class="item2" src="images/item2.jpg"/>
+            <p class="prices price_item2">£47.50</p>
+            <img class="item3" src="images/item3.jpg"/>
+            <strike class="prices price_item3_striked">£107</strike>
+            <p class="prices price_item3">£89.99</p>
+            <img class="item4" src="images/item4.jpg"/>
+            <p class="prices price_item4">£69.95</p>
+            <!-- <img class="item5" src="images/item5.jpg"/>  хз как сохранить без ховера--> 
+            <img class="item6" src="images/item6.jpg"/>
+            <p class="prices price_item6">£34.79</p>
+          </div>
+        </div>
+        <!-- LookBook -->
 
-      <!-- LookBook -->
+        <div class="Content_lookbook">
+            <img class="lookbook1"
+            src="images/container.png"
+            width="663px"
+            height="530px"
+          />
+          <button class="btn lk_btn1">view now</button>
 
-    <div class="lookbook">
-        <img class="lookbook lookbook1"
-        src="images/container.png"
-        width="663px"
-        height="530px"
-      />
-      <button class="btn lk_btn1">view now</button>
-
-      <img class="lookbook lookbook2"
-        src="images/woman.png"
-        width="663px"
-        height="530px"
-      />
-      <button class="btn lk_btn2">view now</button>
-      <img class="lookbook lookbook3"
-        src="images/you.png"
-        width="663px"
-        height="530px"
-      />
-      <button class="btn lk_btn3">view now</button>
-     </div> 
-
+          <img class="lookbook2"
+            src="images/woman.png"
+            width="663px"
+            height="530px"
+          />
+          <button class="btn lk_btn2">view now</button>
+          <img class="lookbook3"
+            src="images/you.png"
+            width="663px"
+            height="530px"
+          />
+          <button class="btn lk_btn3">view now</button>
+        </div> 
+      </div>  
       <!-- Footer -->
     <footer class="footer">
         <!-- Footer table -->
         <div class="footer_table">
           <div class="info">
-            <b>Information</b><br />
+            <b class="heading">Information</b><br /><br />
             <a href="#" target="_blank">The brand</a><br />
             <a href="#" target="_blank">Local stores</a><br />
             <a href="#" target="_blank">Customer service</a><br />
@@ -97,7 +101,7 @@
             <a href="#" target="_blank">Site map</a><br />
           </div>
           <div class="whybuy">
-            <b>Why buy from us</b><br />
+            <b class="heading">Why buy from us</b><br /><br />
             <a href="#" target="_blank">Shipping and returns</a><br />
             <a href="#" target="_blank">Secure shoping</a><br />
             <a href="#" target="_blank">Testimonials</a><br />
@@ -105,7 +109,7 @@
             <a href="#" target="_blank">Ethical trading</a><br />
           </div>
           <div class="youracc">
-            <b>Your account</b><br />
+            <b class="heading">Your account</b><br /><br />
             <a href="#" target="_blank">Sign in</a><br />
             <a href="#" target="_blank">Register</a><br />
             <a href="#" target="_blank">View cart</a><br />
@@ -114,7 +118,7 @@
             <a href="#" target="_blank">Update an information</a><br />
           </div>
           <div class="lookbook">
-            <b>Lookbook</b><br />
+            <b class="heading">Lookbook</b><br /><br />
             <a href="#" target="_blank">Latest posts</a><br />
             <a href="#" target="_blank">Men's lookbook</a><br />
             <a href="#" target="_blank">Women's lookbook</a><br />
@@ -123,25 +127,25 @@
             <a href="#" target="_blank">Delete your lookbook</a><br />
           </div>
           <div class="contacts">
-            <b>Contact details</b><br />
-            Head Office: Avenue Fashion.<br />
-            180-182 Regent Street, London<br /><br />
-            Telephone: 0123-456-789<br /><br />
-            Email:support@yourwebsite.com<br />
+            <b class="heading">Contact details</b><br /><br />
+            <p>Head Office: Avenue Fashion.</p>
+            <p>180-182 Regent Street, London.</p><br />
+            <p>Telephone: 0123-456-789</p>
+            <p>Email:support@yourwebsite.com</p>
           </div>
         </div>
   
         <div class="banners">
           <img
             src="images/banner_awards_bg.png"
-            width="354"
-            height="124"
+            width="570"
+            height="200"
             class="banner1"
           />
           <img
             src="images/banner_social_bg.png"
-            width="354"
-            height="124"
+            width="570"
+            height="200"
             class="banner2"
           />
         </div>

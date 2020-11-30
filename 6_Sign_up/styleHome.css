@@ -1,7 +1,16 @@
 /* TOPBAR */
+.header{
+  position: relative;
+  height: 130px;
+  width: 2050px;
+  left: -8px;
+}
 
+.body{
+  margin: 0px;
+}
 .topbar {
-  position: absolute;
+  position: relative;
   overflow: hidden;
   background-color: #333;
   left: -1px;
@@ -24,16 +33,16 @@
   color: #00c8c8;
 }
 
-.topbar a.topbar_cart
-{
-  background-color:#00c8c8;
+.topbar a.topbar_cart {
+  background-color: #00c8c8;
   color: #ffffff;
   text-align: center;
+  padding-top: 14px;
   position: absolute;
   left: 1463px;
   top: -1px;
   width: 147px;
-  height: 45px;
+  height: 27px;
   z-index: 190;
 }
 
@@ -62,6 +71,11 @@
 
 /* NAVIGATION */
 
+.navigation{
+  position: relative;
+  width: 2050px;
+  height: 85px;
+}
 .navigation a {
   float: left;
   display: block;
@@ -74,7 +88,7 @@
   color: #00c8c8;
 }
 
-.navigation .logo
+.logo
 {
   font-size: 24px;
   font-family: "Montserrat";
@@ -82,51 +96,55 @@
   text-transform: uppercase;
   line-height: 1.2;
   text-align: left;
-  position: absolute;
+  position: relative;
   left: 134px;
-  top: 83px;
+  top: 38px;
   z-index: 186;
 }
 
-.navigation .nav_item
+.nav_item
 {
   font-size: 13px;
   font-family: "Montserrat";
   text-transform: uppercase;
   line-height: 1.538;
   text-align: right;
-  position: absolute;
-  top: 92px;
+  position: relative;
+  top: 46px;
   z-index: 184;
 }
 
-
-.navigation .mens 
+.mens 
 {
+  position: absolute;
   left: 1016px;
 }
 
-.navigation .womens
+.womens
 {
+  position: absolute;
   left: 1112px;
 }
 
-.navigation .the_brand
+.the_brand
 {
+  position: absolute;
   left: 1234px;
 }
 
-.navigation .local_stores
+.local_stores
 {
+  position: absolute;
   left: 1371px;
 }
 
-.navigation .navigation_lookbook
+.navigation_lookbook
 {
+  position: absolute;
   left: 1530px;
 }
 
-.navigation .input {
+.input {
   border-style: solid;
   border-width: 1px;
   border-color: rgb(231, 231, 231);
@@ -137,7 +155,7 @@
   color: rgb(152, 152, 152);
   position: absolute;
   left: 1723px;
-  top: 82px;
+  top: 37px;
   width: 189px;
   height: 30px;
   z-index: 175;
@@ -147,9 +165,9 @@
 
 .intro
 {
-  position: absolute;
-  left: -3px;
-  top: 44px;
+  position: relative;
+  left: -8px;
+  top: -94px;
   width: 2053px;
   height: 920px;
 }
@@ -179,8 +197,28 @@
   color:#f8f8f8;
   border-color:#00c8c8;
 }
-
+/* CONTENT */
+.content{
+  position: relative;
+  top: -94px;
+  width: 2050px;
+  height: 2078px;
+}
 /* ITEMS */
+
+.item {
+  position: absolute;
+  top: 63px;
+  height: 1430px;
+  width: 1770px;
+  left: 138px;
+  border-top: 1px;
+  border-bottom: 1px;
+  border-left: 0px;
+  border-right: 0px;
+  border-style: solid;
+  border-color: #eeeeee;
+}
 
 .items_menu a{
   float: left;
@@ -190,76 +228,80 @@
   text-decoration: none;
   }
 
-  .items_menu a:hover
+.items_menu a:hover
 {
   color: #00c8c8;
 }
 
-.items_menu{
+.items_menu {
   font-size: 13px;
   font-family: "Montserrat";
-  color:#7b7b7b;
+  color: #7b7b7b;
   text-transform: uppercase;
   line-height: 1.538;
   text-align: left;
-  position: absolute;
+  position: relative;
   width: 2050px;
-  top: 1076px;
+  height: 13px;
+  top: 54px;
 }
 
 .popular
 {
   position: absolute;
-  left: 138px;
+  left: 0px;
 }
 
 .new_arrivals{
   position: absolute;
-  left: 256px;
+  left: 119px;
 }
 
 .best_sellers{
   position: absolute;
-  left: 418px;
+  left: 280px;
 }
 
 .special_offers{
   position: absolute;
-  left: 569px;
+  left: 430px;
 }
 
 .coming_soon{
   position: absolute;
-  left: 739px;
+  left: 600px;
 }
 
-.items{
- position: absolute;
+.items {
+  position: absolute;
+  height: 1234px;
+  width: 1770px;
+  top: 127px;
 } 
 
-.item1{
-  left: 138px;
-  top: 1153px;
+.item1 {
+  position: absolute;
 }
 
-.item2{
-  left: 588px;
-  top: 1153px;
+.item2 {
+  position: absolute;
+  left: 450px;
 }
 
 .item3{
-  left: 1038px;
-  top: 1153px;
+  position: absolute;
+  left: 900px;
 }
 
 .item4{
-  left: 138px;
-  top: 1683px;
+  position: absolute;
+    top: 530px;
 }
 
 .item6{
-  left: 1488px;
-  top: 1887px;
+  position: absolute;
+  left: 1350px;
+  top: 734px;
 }
 
 .prices{
@@ -272,62 +314,61 @@
   text-align: left;
   position: absolute;
 }
-.price_item1{
- 
-  left: 153px;
-  top: 1150px;
+
+.price_item1 {
+  left: 15px;
 }
 .price_item2{
-  left: 604px;
-  top: 1150px;
+  left: 466px;
 }
 
 .price_item3_striked{
-  left: 1053px;
-  top: 1171px;
+  left: 915px;
+  top: 21px;
 }
 
 .price_item3{
-  left: 1112px;
-  top: 1150px;
+  left: 974px;
 }
 
 .price_item4{
-  left: 153px;
-  top: 1685px;
+  left: 15px;
+  top: 530px;
 }
 
 .price_item6{
-  left: 1502px;
-  top: 1885px;
+  left: 1364px;
+  top: 728px;
 }
 
 /* LOOKBOOK */
 
-.lookbook{
+.Content_lookbook{
+
+  position: absolute;
+  height: 530px;
+  width: 2050px;
+  top: 1554px;
+}
+
+.lookbook1{
   position: absolute;
 }
 
-.lookbook .lookbook1{
-  left: 0px;
-  top: 2513px;
-}
-
 .lookbook2{
+  position: absolute;
   left: 693px;
-  top: 2513px;
 }
 
 .lookbook3{
+  position: absolute;
   left: 1385px;
-  top: 2513px;
-
 }
 
 .lk_btn1{
   position: absolute;
-  left: 427px;
-  top: 2841px;
+  left: 426px;
+  top: 329px;
   width: 180px;
   height: 59px;
 }
@@ -335,7 +376,7 @@
 .lk_btn2{
   position: absolute;
   left: 1120px;
-  top: 2841px;
+  top: 329px;
   width: 180px;
   height: 59px;
 }
@@ -343,7 +384,7 @@
 .lk_btn3{
   position: absolute;
   left: 1813px;
-  top: 2841px;
+  top: 329px;
   width: 180px;
   height: 59px;
 }
@@ -352,32 +393,38 @@
 
 .footer
 {
-  top: 3166px;
+  position: relative;
+  top: 29px;
   height: 634px;
   width: 2050px;
   background-color:#f8f8f8;
-  position: relative;
-}
-.copyright_bar{
-  background-color:  #333;
-  height: 45px;
-  width: 2050px;
 }
 
-.banners
-{
-  padding: 35px 273px;
+.copyright_bar{
+  position: absolute;
+  background-color:#333333;
+  height: 45px;
+  width: 2050px;
+  top: 589px;
+}
+
+.banners{
+  position: absolute;
+  left: 440px;
+  top: 333px;
+  width: 1170px;
+  height: 200px;
 }
 .banner1
 {
-  left: 439px;
-  top: 3499px;
-
+  position: absolute;
 }
+
 .banner2
 {
-  padding-left: 6px;
-}
+  position: absolute;
+  left: 600px;
+  }
 
 .copyright_bar a
 {
@@ -385,40 +432,106 @@
   display: block;
   color: #858585;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 14px;
   padding-bottom: 10px;
   text-decoration: none;
-  font-size: 10px;
-}
-.copyright
-{
-  padding-left: 273px;
-}
-.designby
-{
-  padding-left: 273px;
-}
-.devby
-{
-  padding-left: 23px;
+  font-family: "Montserrat";
+  color: rgb(153, 153, 153);
+  font-size: 13px;
 }
 
-.table{
-    display: flex;
-    width: 730px;
-    margin-left: 275px;
-    margin-right: 275px;
-}
-.footer .footer_table
+.copyright
 {
-  display: flex;
-  align-content: center;
-  padding-top: 30px;
+  position: absolute;
+  left:440px;
+}
+
+.designby
+{
+  position: absolute;
+  left: 1219px;
+}
+
+.devby
+{
+  position: absolute;
+  left: 1448px;
+}
+
+.footer_table
+{
+  position: absolute;
+  width: 1178px;
+  height: 211px;
+  top: 64px;
+  left: 440px;
+}
+
+.footer_table a{
+  font-size: 14px;
+  font-family: "Montserrat";
+  color:#727272;
+  line-height: 2.143;
+  text-align: left;
+  text-decoration: none;
+}
+
+.heading{
+  font-size: 13px;
+  font-family: "Montserrat";
+  color: rgb(87, 81, 83);
+  text-transform: uppercase;
+  line-height: 1.538;
+  text-align: left;
+}
+
+.info {
+  position: absolute;
+  left: 0px;
+  top: 0px;
   width: fit-content;
-  margin-left: 210px;
-  margin-right: 210px;
+  height: fit-content;
 }
-.footer .footer_table > div{
-  margin: 5px 10px;
+
+.whybuy{
+  position: absolute;
+  left: 235px;
+  top: 0px;
+  width: fit-content;
+  height: fit-content;
 }
+
+.youracc{
+  position: absolute;
+  left: 472px;
+  top: 0px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.lookbook{
+  position: absolute;
+  left: 710px;
+  top: 0px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.contacts{
+  position: absolute;
+  left: 949px;
+  top: 0px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.contacts p{
+  font-size: 14px;
+  font-family: "Montserrat";
+  color:#727272;
+  line-height: 2.143;
+  text-align: left;
+  margin: 0;
+}
+
 
