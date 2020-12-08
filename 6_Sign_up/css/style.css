@@ -1,8 +1,23 @@
+@font-face{
+  font-family: 'Montserrat-Regular';
+  src: url("fonts/Montserrat-Regular.ttf");
+}
+
+@font-face{
+  font-family: 'Montserrat-Bold';
+  src: url("fonts/Montserrat-Bold.ttf");
+}
+
+@font-face{
+  font-family: 'Montserrat-Light';
+  src: url("fonts/Montserrat-Light.ttf");
+}
+
 .topbar {
   overflow: hidden;
   background-color: #333;
-  width: 1280px;
-  height: 28px;
+  width: 2050px;
+  height: 45px;
 }
 
 .topbar a {
@@ -12,6 +27,7 @@
   text-align: center;
   padding: 5px 20px;
   text-decoration: none;
+  font-family: 'Montserrat-Regular';
 }
 .topbar a:hover
 {
@@ -20,93 +36,102 @@
 .topbar a.topbar_cart
 {
   float: right;
-  margin-right: 274px;
+  margin-right: 440px;
   background-color:#00c8c8;
   color: #ffffff;
-  width: 92px;
-  padding-left: 0px;
+  width: 150px;
+  padding-top: 13.5px;
   padding-right: 0px;
+  padding-bottom: 13.5px;
+  padding-left: 0px;
 }
 .topbar a.currency-selector
 {
-  margin-left: 274px;
+  margin-left: 450px;
   margin-right: 0px;
-  padding: 5px 0px;
+  padding: 13.5px 0px;
 }
 .topbar a.topbar_register
 {
-  margin-left: 431px;
+  margin-left: 690px;
   margin-right: 0px;
-  padding: 5px 0px;
+  padding: 13.5px 0px;
 }
 .topbar a.topbar_signin
 {
-  margin-left: 22px;
+  margin-left: 36px;
   margin-right: 0px; /* А чо а всмысле */
-  padding: 5px 0px;
+  padding: 13.5px 0px;
 }
 .navigation
 {
-  height: 69px;
+  height: 111px;
   background-color: #f8f8f8;
-  width: 1280px;
+  width: 2050px;
 }
 .navigation input
 {
-  margin: 14px 0px;
-  margin-right: 84px;
+  margin: 37px 0px;
+  margin-right: 135px;
   float: right;
+  height: 30px;
 }
 .navigation a {
   float: left;
   display: block;
   color: black;
   text-align: center;
-  padding: 14px 0px;
+  padding: 39.5px 0px;
   text-decoration: none;
   font-size: 15px;
+  font-family: 'Montserrat-Bold';
 }
 .navigation .logo
 {
-  margin-left: 64px;
-  margin-right: 380px;
+  margin-left: 134px;
+  /* margin-right: 380px; */
 }
 .navigation .nav_item
 {
-  padding: 14px 8px;
-  margin: 0px 10px;
+  /* padding: 14px 8px; */
+  font-size: 20px;
+  padding-right: 28px;
+  padding-left: 28px;
+
+  margin: 0px 5px;
 }
 .navigation .mens
 {
 
-  padding: 14px 8px;
-  margin-left: 380px;
+  /* padding: 14px 8px; */
+  margin-left: 644px;
 }
 .intro
 {
   text-align: center;
-  background: url(images/intro_city_photo_bg.png);
+  background: url(../images/intro_city_photo_bg.png);
   background-size: contain;
   background-repeat: no-repeat;
-  width: 1280px;
-  height: 280px;
+  width: 2050px;
+  height: 450px;
 }
 .content
 {
-  height: 362px;
-  width: 1280px;
-  background-color: #ffffff;
+  height: 580px;
+  width: 2050px;
+  /* Replace color to white */
+  background-color: #f3cccc;
 }
 .footer
 {
-  height: 395px;
-  width: 1280px;
+  height: 590px;
+  width: 2050px;
   background-color:#f8f8f8;
 }
 .copyright_bar{
   background-color:  #333;
-  height: 28px;
-  width: 1280px;
+  height: 45px;
+  width: 2050px;
 }
 
 .banners
@@ -148,9 +173,9 @@
 
 .table{
     display: flex;
-    width: 730px;
-    margin-left: 275px;
-    margin-right: 275px;
+    width: 1174px;
+    margin-left: 438px;
+    margin-right: 438px;
 }
 .footer .footer_table
 {
@@ -158,8 +183,8 @@
   align-content: center;
   padding-top: 30px;
   width: fit-content;
-  margin-left: 210px;
-  margin-right: 210px;
+  margin-left: 440px;
+  margin-right: 440px;
 }
 .footer .footer_table > div{
   margin: 5px 10px;
