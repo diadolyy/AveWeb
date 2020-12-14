@@ -9,10 +9,11 @@
 .body{
   margin: 0px;
 }
+
 .topbar {
   position: relative;
   overflow: hidden;
-  background-color: #333;
+  background-color: #333333;
   left: -1px;
   top: 0px;
   width: 2053px;
@@ -21,11 +22,11 @@
 }
 
 .topbar a {
-  float: left;
-  display: block;
-  color: #999999;
-  text-align: center;
-  padding: 5px 20px;
+  font-size: 13px;
+  font-family: "Montserrat";
+  color: #777777;
+  line-height: 1.615;
+  text-align: left;
   text-decoration: none;
 }
 .topbar a:hover
@@ -42,7 +43,7 @@
   left: 1463px;
   top: -1px;
   width: 147px;
-  height: 27px;
+  height: 32px;
   z-index: 190;
 }
 
@@ -50,14 +51,14 @@
 {
   position: absolute;
   left: 440px;
-  top: 5px;
+  top: 10px;
 }
 
 .topbar a.topbar_register
 {
   position: absolute;
   left: 1248px;
-  top: 5px;
+  top: 10px;
   z-index: 194;
 }
 
@@ -65,7 +66,7 @@
 {
   position: absolute;
   left: 1336px;
-  top: 5px;
+  top: 10px;
   z-index: 194;
 } 
 
@@ -426,6 +427,22 @@
   left: 600px;
   }
 
+.banner1 p{
+  position: absolute;
+  font-size: 36px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.333;
+  margin: 0px;
+  right: 58px;
+  left: 60px;
+  top: 55px;
+  }
+  
+
+
 .copyright_bar a
 {
   float: left;
@@ -474,6 +491,10 @@
   line-height: 2.143;
   text-align: left;
   text-decoration: none;
+}
+
+.footer_table a:hover{
+color: #00c8c8;
 }
 
 .heading{
