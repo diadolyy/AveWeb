@@ -105,7 +105,6 @@
 {
   font-size: 24px;
   font-family: "Montserrat";
-  font-weight: bold;
   text-transform: uppercase;
   line-height: 1.2;
   text-align: left;
@@ -184,26 +183,222 @@
 
 .sign_up.intro
 {
-  text-align: center;
-  background: url(../images/intro_city_photo_bg.png);
+  position: relative;
+  /* text-align: center; */
+ /* background: url(../images/signintro.jpg);
   background-size: contain;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;  */
   width: 2050px;
   height: 450px;
+  top: 30px;
 }
+.sign_up.intro p1{
+    font-size: 48px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.125;
+    text-align: center;
+    position: absolute;
+    left: 787px;
+    top: 170px;
+  }
+  .sign_up.intro p2{
+      font-size: 30px;
+      font-family: "Montserrat";
+      color: rgb(255, 255, 255);
+      text-transform: uppercase;
+      line-height: 1.8;
+      text-align: center;
+      position: absolute;
+      left: 844px;
+      top: 258px;
+    
+  } 
+
 .sign_up.content
 {
+  position: relative;
+  top: 29px;
   height: 580px;
   width: 2050px;
-  /* Replace color to white */
-  background-color: #f3cccc;
 }
+.sign_in{
+  position: absolute;
+  left: 440px;
+  top: 63px;
+  width: 585px;
+  height: 397px;
+  border-right: solid;
+  border-width: 1px;
+  border-color: rgb(238, 238, 238);
+}
+
+.sign_in label{
+  position: absolute;
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: #575153;
+    text-transform: uppercase;
+    line-height: 1.111;
+    text-align: left;
+    font-weight: bold;
+  
+}
+
+.sign_in a{
+  font-size: 15px;
+  font-family: "Roboto";
+  color: rgb(0, 200, 200);
+  line-height: 1.467;
+  text-align: right;
+  position: absolute;
+  left: 384px;
+  top: 227px;
+  margin: 0px;
+  text-decoration: none;
+}
+/* .pointer {
+  background-image: url("pointer.png");
+  position: absolute;
+  left: 536px;
+  top: 915px;
+  width: 19px;
+  height: 24px;
+  z-index: 76;
+}*/
+
+.email{
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(231, 231, 231);
+  background-color: rgba(51, 51, 51, 0);
+  position: absolute;
+  top: 63px;
+  width: 550px;
+  height: 40px;
+  font-size: 15px;
+  font-family: "Montserrat";
+  color: rgb(152, 152, 152);
+  line-height: 1.467;
+  text-align: left;
+  }
+
+.password{
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(231, 231, 231);
+  background-color: rgba(51, 51, 51, 0);
+  position: absolute;
+  top: 135px;
+  width: 550px;
+  height: 40px;
+  font-size: 15px;
+  font-family: "Montserrat";
+  color: rgb(152, 152, 152);
+  line-height: 1.467;
+  text-align: left;
+}
+
+.register{
+  position: absolute;
+  left: 1060px;
+  top: 63px;
+  width: 550px;
+  height: 397px;
+}
+
+.register label{
+  position: absolute;
+  font-size: 18px;
+  font-family: "Montserrat";
+  color: #575153;
+  text-transform: uppercase;
+  line-height: 1.111;
+  text-align: left;
+  font-weight: bold;
+}
+
+.confirm{
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(231, 231, 231);
+  background-color: rgba(51, 51, 51, 0);
+  position: absolute;
+  top: 208px;
+  width: 550px;
+  height: 40px;
+  font-size: 15px;
+  font-family: "Montserrat";
+  color: rgb(152, 152, 152);
+  line-height: 1.467;
+  text-align: left;
+}
+
+.check{
+  position: absolute;
+  top: 282px;
+  width: 24px;
+  height: 24px;
+  border-color:  rgb(231, 231, 231);
+}
+
+.chekbox{
+  font-size: 15px;
+  font-family: "Roboto";
+  color: rgb(142, 140, 140);
+  font-weight: lighter;
+  line-height: 1.467;
+  text-align: left;
+  position: absolute;
+  left: 41px;
+  top: 273px;
+}
+
+.policy{
+  position: absolute;
+  left: 331px;
+  top: 331px;
+  font-size: 15px;
+  font-family: "Roboto";
+  color: rgb(142, 140, 140);
+  line-height: 1.467;
+  text-align: left; 
+}
+
+.policy a{
+  position: absolute;
+  left: 86px;
+  top: 21px;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "Roboto";
+  color: rgb(0, 200, 200);
+  line-height: 1.467;
+}
+
 .intro_btn{
   left: 1383px;
   top: 781px;
   width: 342px;
   height: 59px;
 }
+
+.sign_in_button{
+  position: absolute;
+  height: 60px;
+  width: 150px;
+  top: 205px;
+
+}
+
+.create_button{
+  position: absolute;
+  height: 60px;
+  width: 260px;
+  top: 337px;
+}
+
 .btn {
   border-style: solid;
   border-width: 2px;
