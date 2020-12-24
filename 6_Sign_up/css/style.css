@@ -539,6 +539,12 @@
     top: 530px;
 }
 
+.item5{
+  position: absolute;
+  left: 899px;
+  top: 734px;
+}
+
 .item6{
   position: absolute;
   left: 1350px;
@@ -575,6 +581,11 @@
 .price_item4{
   left: 15px;
   top: 530px;
+}
+
+.price_item5{
+  left: 915px;
+  top: 728px;
 }
 
 .price_item6{
