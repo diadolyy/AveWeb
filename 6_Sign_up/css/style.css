@@ -120,7 +120,8 @@
 
 .nav_item
 {
-  font-size: 13px;
+  font-size: 15px;
+  font-weight: bold;
   font-family: "Montserrat";
   text-transform: uppercase;
   line-height: 1.538;
@@ -844,4 +845,73 @@ color: #00c8c8;
   line-height: 2.143;
   text-align: left;
   margin: 0;
+}
+
+/* Sub-nav menu and its hover activation */
+
+.dropdown {
+  position: absolute;
+  top:65px;
+  left:1010px;
+  background-color: #f8f8f8;
+  z-index: 1;
+  display: none;
+  width: 410px;
+  height: 470px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 30px;
+  font-family: "Montserrat";
+  font-size: 14px;
+}
+
+.dropact:hover .dropdown {
+  display: block;
+}
+
+
+
+.dropdown_list {
+  list-style-type: none;
+}
+
+.formal {
+  position: absolute;
+  left:270px;
+  top: 30px;
+  width: 60px;
+}
+
+.casuals {
+  width: 156px;
+  height: 250px;
+  left:0px;
+  top: 0px;
+}
+
+.dropdown_list li a {
+  padding: 10px 0px;
+  font-size: 14px;
+}
+.casuals p , .formal p   {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #575153;
+}
+
+.subnavbanner {
+  height: fit-content;
+  width: 410px;
+  background-color: #333333;
+  color: white;
+  font-family: "Montserrat";
+  text-align: center;
+  font-size: 36px;
+  padding: 56px 0px;
+  margin: 0px;
+  margin-top: 22px;
+}
+
+.invisible {
+  color:#f8f8f8;
 }
