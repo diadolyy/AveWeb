@@ -12,6 +12,7 @@
   font-family: 'Montserrat-Light';
   src: url("fonts/Montserrat-Light.ttf");
 } */
+
 /* TOPBAR */
 .header{
   position: relative;
@@ -28,7 +29,7 @@
   position: relative;
   overflow: hidden;
   background-color: #333333;
-  left: -1px;
+  /* left: -1px; */
   top: 0px;
   width: 2053px;
   height: 45px;
@@ -172,6 +173,26 @@
   height: 30px;
   z-index: 175;
 }
+
+.searchbutton{
+  position: absolute;
+  right: 144px;
+  top:46px ;
+  width: 21px;
+  height:16px;
+  border-style: hidden;
+  background-color: #ffffff;
+  z-index: 200;
+}
+
+.searchicon{
+  position: absolute;
+  right: 0px;
+  top:0px ;
+  width: 21px;
+  height:16px;
+}
+
 .home.intro
 {
   position: relative;
@@ -658,7 +679,37 @@
   top: 55px;
   }
   
+.facebookicon{
+  position: absolute;
+  left:743px ;
+  top:83px ;
+  width: 41px;
+  height: 36px;
+}
 
+.twittericon{
+  position: absolute;
+  left:825px ;
+  top:83px ;
+  width: 41px;
+  height: 36px;
+}
+
+.instagramicon{
+  position: absolute;
+  left:908px ;
+  top:83px ;
+  width: 41px;
+  height: 36px;
+}
+
+.pinteresticon{
+  position: absolute;
+  left:993px ;
+  top:83px ;
+  width: 41px;
+  height: 36px;
+}
 
 .copyright_bar a
 {
